@@ -1,0 +1,204 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"c1": 0.5673,
+								"c2": 0,
+								"c3": 0.4242,
+								"c4": 0.9953,
+								"curve_type": "bezier",
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 0,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Gift",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"c1": 0.5724,
+								"c2": 0,
+								"c3": 0.4276,
+								"c4": 0.995260663507109,
+								"curve_type": "bezier",
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 500
+							}
+						]
+					},
+					"name": "Idle",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 0,
+										"folder": 0
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"file": 0,
+										"folder": 0,
+										"y": 20
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Gift",
+							"obj": 0
+						}
+					]
+				}
+			],
+			"character_map": [
+				{
+					"id": 0,
+					"map": [
+						{
+							"file": 0,
+							"folder": 0,
+							"target_file": 1,
+							"target_folder": 0
+						}
+					],
+					"name": "Journey"
+				},
+				{
+					"id": 1,
+					"map": [],
+					"name": "Gift"
+				},
+				{
+					"id": 2,
+					"map": [
+						{
+							"file": 0,
+							"folder": 0,
+							"target_file": 2,
+							"target_folder": 0
+						}
+					],
+					"name": "Thor"
+				},
+				{
+					"id": 3,
+					"map": [
+						{
+							"file": 0,
+							"folder": 0,
+							"target_file": 3,
+							"target_folder": 0
+						}
+					],
+					"name": "Wealth"
+				}
+			],
+			"id": 0,
+			"name": "Rune",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						},
+						{
+							"file": 1,
+							"folder": 0
+						},
+						{
+							"file": 2,
+							"folder": 0
+						},
+						{
+							"file": 3,
+							"folder": 0
+						}
+					],
+					"name": "Rune_Gift",
+					"realname": "Gift",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 315,
+					"id": 0,
+					"name": "Gift.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 281
+				},
+				{
+					"height": 328,
+					"id": 1,
+					"name": "Journey.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 244
+				},
+				{
+					"height": 331,
+					"id": 2,
+					"name": "Thor.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 199
+				},
+				{
+					"height": 352,
+					"id": 3,
+					"name": "Wealth.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 222
+				}
+			],
+			"id": 0
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r2",
+	"scon_version": "1.0"
+}
